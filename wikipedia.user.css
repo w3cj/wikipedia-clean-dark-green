@@ -1,15 +1,13 @@
 /* ==UserStyle==
 @name         Wikipedia Clean Dark Green
-@namespace    w3cj
-@description  A clean dark theme with green accents.
-@author       CJ
-@updateURL    https://raw.githubusercontent.com/w3cj/wikipedia-clean-dark-green/main/wikipedia.user.css
-@version      1.0.0
+@version      20220914.14.58
+@namespace    userstyles.world/user/w3cj
+@description  A clean dark theme with green accents based on the "Wikipedia Clean Dark" theme.
+@author       w3cj
 @license      MIT License
 ==/UserStyle== */
 
 @-moz-document domain("wikipedia.org"), domain("www.wikimedia.org"), domain("wiktionary.org"), domain("wikinews.org"), domain("wikimedia.org") {
-
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
   body
