@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         Wikipedia Clean Dark Green
+@description  A clean dark theme with green accents.
+@author       CJ
+@updateURL    https://raw.githubusercontent.com/w3cj/wikipedia-clean-dark/main/wikipedia.user.css
+@version      1.0.0
+@license      MIT License
+==/UserStyle== */
+
+@-moz-document domain("wikipedia.org"), domain("www.wikimedia.org"), domain("wiktionary.org"), domain("wikinews.org"), domain("wikimedia.org") {
+
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
   body
@@ -948,4 +959,5 @@ ul {
 
 #mw-mf-viewport #bodyContent #toc li a {
      color: #56BC58 !important;
+}
 }
