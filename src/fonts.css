@@ -3,8 +3,9 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-italic.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2fp2a15UIB7Un-bOeISG3pHl4G8wn5wqm72JOY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* greek */
@@ -12,17 +13,9 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-italic.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2fp2a15UIB7Un-bOeISG3pHl4G9An5wqm72JOY.woff2) format('woff2');
   unicode-range: U+0370-03FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Anonymous Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-italic.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
@@ -30,8 +23,19 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-italic.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2fp2a15UIB7Un-bOeISG3pHl4G-Qn5wqm72JOY.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2fp2a15UIB7Un-bOeISG3pHl4G9wn5wqm72A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* cyrillic */
@@ -39,8 +43,9 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-italic.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2ap2a15UIB7Un-bOeISG3pHl4OTCzs64u28qmR9FXh.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* greek */
@@ -48,17 +53,9 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-italic.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2ap2a15UIB7Un-bOeISG3pHl4OTCzs7Iu28qmR9FXh.woff2) format('woff2');
   unicode-range: U+0370-03FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Anonymous Pro';
-  font-style: italic;
-  font-weight: 700;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-italic.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
@@ -66,8 +63,19 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-italic.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2ap2a15UIB7Un-bOeISG3pHl4OTCzs4Yu28qmR9FXh.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2ap2a15UIB7Un-bOeISG3pHl4OTCzs74u28qmR9A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* cyrillic */
@@ -75,8 +83,9 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-normal.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2Bp2a15UIB7Un-bOeISG3pHl829QP-4KuL2Q.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* greek */
@@ -84,17 +93,9 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-normal.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2Bp2a15UIB7Un-bOeISG3pHlg29QP-4KuL2Q.woff2) format('woff2');
   unicode-range: U+0370-03FF;
-}
-
-/* latin */
-@font-face {
-  font-family: 'Anonymous Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-normal.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
@@ -102,8 +103,19 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-normal.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2Bp2a15UIB7Un-bOeISG3pHlU29QP-4KuL2Q.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2Bp2a15UIB7Un-bOeISG3pHls29QP-4Ks.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* cyrillic */
@@ -111,8 +123,9 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-normal.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2cp2a15UIB7Un-bOeISG3pFuAT4Crc7YGx0Kuh9Q.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* greek */
@@ -120,80 +133,29 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-normal.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2cp2a15UIB7Un-bOeISG3pFuAT4C3c7YGx0Kuh9Q.woff2) format('woff2');
   unicode-range: U+0370-03FF;
 }
 
-/* latin */
-@font-face {
-  font-family: 'Anonymous Pro';
-  font-style: normal;
-  font-weight: 700;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-normal.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
 /* latin-ext */
 @font-face {
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-normal.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2cp2a15UIB7Un-bOeISG3pFuAT4CDc7YGx0Kuh9Q.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* cyrillic */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-italic.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* cyrillic-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-italic.woff") format('woff'); 
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 @font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-300-italic.woff") format('woff'); 
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/anonymouspro/v21/rP2cp2a15UIB7Un-bOeISG3pFuAT4C7c7YGx0Ks.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-italic.woff") format('woff'); 
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* vietnamese */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-italic.woff") format('woff'); 
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-
-/* cyrillic */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-italic.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
@@ -201,26 +163,19 @@
   font-family: Merriweather;
   font-style: italic;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-italic.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eRZDf-LVrPHpBXw.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-/* latin */
+/* cyrillic */
 @font-face {
   font-family: Merriweather;
   font-style: italic;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-400-italic.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-italic.woff") format('woff'); 
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eRZKf-LVrPHpBXw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* vietnamese */
@@ -228,17 +183,29 @@
   font-family: Merriweather;
   font-style: italic;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-italic.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eRZBf-LVrPHpBXw.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
-/* cyrillic */
+/* latin-ext */
 @font-face {
   font-family: Merriweather;
   font-style: italic;
-  font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-italic.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eRZAf-LVrPHpBXw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4m0qyriQwlOrhSvowK_l5-eRZOf-LVrPHp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* cyrillic-ext */
@@ -246,26 +213,19 @@
   font-family: Merriweather;
   font-style: italic;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-italic.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR71Wvf1jvzDP3WGO5g.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-/* latin */
+/* cyrillic */
 @font-face {
   font-family: Merriweather;
   font-style: italic;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-700-italic.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-italic.woff") format('woff'); 
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR71Wvf8jvzDP3WGO5g.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* vietnamese */
@@ -273,107 +233,29 @@
   font-family: Merriweather;
   font-style: italic;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-italic.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR71Wvf3jvzDP3WGO5g.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-
-/* cyrillic */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-italic.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* cyrillic-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-italic.woff") format('woff'); 
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* latin */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-900-italic.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
 @font-face {
   font-family: Merriweather;
   font-style: italic;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-italic.woff") format('woff'); 
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR71Wvf2jvzDP3WGO5g.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* vietnamese */
-@font-face {
-  font-family: Merriweather;
-  font-style: italic;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-italic.woff") format('woff'); 
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-
-/* cyrillic */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-normal.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* cyrillic-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-normal.woff") format('woff'); 
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 @font-face {
   font-family: Merriweather;
-  font-style: normal;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-300-normal.woff") format('woff'); 
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4l0qyriQwlOrhSvowK_l5-eR71Wvf4jvzDP3WG.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-normal.woff") format('woff'); 
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* vietnamese */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 300;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-normal.woff") format('woff'); 
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
-}
-
-/* cyrillic */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-normal.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
@@ -381,26 +263,19 @@
   font-family: Merriweather;
   font-style: normal;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-normal.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-cSZMdeX3rsHo.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-/* latin */
+/* cyrillic */
 @font-face {
   font-family: Merriweather;
   font-style: normal;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-400-normal.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-normal.woff") format('woff'); 
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-eCZMdeX3rsHo.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* vietnamese */
@@ -408,17 +283,29 @@
   font-family: Merriweather;
   font-style: normal;
   font-weight: 400;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-normal.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-cyZMdeX3rsHo.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
-/* cyrillic */
+/* latin-ext */
 @font-face {
   font-family: Merriweather;
   font-style: normal;
-  font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-normal.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-ciZMdeX3rsHo.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* cyrillic-ext */
@@ -426,78 +313,47 @@
   font-family: Merriweather;
   font-style: normal;
   font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-normal.woff") format('woff'); 
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNZVcf6hPvhPUWH.woff2) format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* latin */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-700-normal.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-normal.woff") format('woff'); 
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* vietnamese */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 700;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-normal.woff") format('woff'); 
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
 /* cyrillic */
 @font-face {
   font-family: Merriweather;
   font-style: normal;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-normal.woff") format('woff'); 
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* cyrillic-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-normal.woff") format('woff'); 
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/* latin */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-900-normal.woff") format('woff'); 
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: Merriweather;
-  font-style: normal;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-normal.woff") format('woff'); 
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNZXMf6hPvhPUWH.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* vietnamese */
 @font-face {
   font-family: Merriweather;
   font-style: normal;
-  font-weight: 900;
-  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-normal.woff") format('woff'); 
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNZV8f6hPvhPUWH.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNZVsf6hPvhPUWH.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6hPvhPQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
