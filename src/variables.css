@@ -1,0 +1,12 @@
+:root {
+  --eerie-black: #181a1b;
+  --charleston-green: #23272a;
+  --light-grey: #cccccc;
+  --garden-green: #56bc58;
+  --celadon: #b6e2b6;
+  --bg-color: var(--eerie-black);
+  --light-bg-color: var(--charleston-green);
+  --font-color: var(--light-grey);
+  --new-link-color: var(--garden-green);
+  --old-link-color: var(--celadon);
+}

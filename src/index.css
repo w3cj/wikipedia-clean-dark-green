@@ -1,31 +1,33 @@
 /* ==UserStyle==
 @name         Wikipedia Clean Dark Green
-@version      20220914.14.58
+@version      20220921.13.49
 @namespace    userstyles.world/user/w3cj
 @description  A clean dark theme with green accents based on the "Wikipedia Clean Dark" theme.
 @author       w3cj
 @license      MIT License
 ==/UserStyle== */
 
-@import url("./fonts.css");
+@import "./fonts.css";
+@import "./variables.css";
 
 @-moz-document domain("wikipedia.org"), domain("www.wikimedia.org"), domain("wiktionary.org"), domain("wikinews.org"), domain("wikimedia.org") {
   body {
     border: none !important;
-    font-family: "Merriweather", sans-serif !important;
+    font-family: Merriweather, serif !important;
     font-size: 18px !important;
-    background: #181a1b !important;
+    background: var(--bg-color) !important;
+    counter-reset: headingOne; /* via http://userstyles.org/styles/56739/wikipedia-readable-hyphenation */
   }
 
   #content {
     margin: 0 auto !important;
     border: none !important;
-    font-family: "Merriweather" !important;
+    font-family: Merriweather, serif !important;
     font-size: 1rem !important;
     line-height: 80% !important;
     max-width: 920px !important;
-    background: #181a1b !important;
-    color: #ccc !important;
+    background: var(--bg-color) !important;
+    color: var(--font-color) !important;
   }
 
   a {
@@ -35,11 +37,13 @@
   a:hover {
     text-decoration: underline !important;
   }
+
   /* top nav */
   #mw-page-base {
-    height: 0px !important;
+    height: 0 !important;
     margin: 0 auto !important;
-    background: #23272a !important;
+    background: var(--light-bg-color) !important;
+
     /* background: #CAC8C4 !important; */
   }
 
@@ -56,6 +60,10 @@
     max-width: 870px !important;
     height: 90px !important;
     margin: 0 auto !important;
+  }
+
+  ul {
+    list-style-image: none !important;
   }
 
   #mw-head a,
@@ -82,14 +90,14 @@
 
   #mw-head #right-navigation {
     top: 50px !important;
-    right: 0px !important;
+    right: 0 !important;
     padding: 0 !important;
   }
 
   #mw-head #p-personal {
-    top: 0px !important;
+    top: 0 !important;
     right: -30px !important;
-    padding: 5px 0px 0 0 !important;
+    padding: 5px 0 0 !important;
     font-size: 14px !important;
   }
 
@@ -123,41 +131,44 @@
   #mw-head #searchform > div input#searchInput {
     padding: 4px 0 6px 8px !important;
     font-size: 1rem;
-    color: #ccc !important;
+    color: var(--font-color) !important;
   }
 
   #mw-head #p-cactions,
   #mw-head #ca-watch {
     display: none !important;
   }
+
   /* logo */
-  #mw-head:before {
+  #mw-head::before {
     position: relative !important;
     width: 120px !important;
     height: 120px !important;
     top: 30px !important;
     left: -25px !important;
     content: "Wikipedia" !important;
-    font-family: "Merriweather", serif !important;
-    /*font-style: italic !important;*/
+    font-family: Merriweather, serif !important;
+
+    /* font-style: italic !important; */
     font-weight: normal !important;
     font-size: 28px !important;
     text-transform: uppercase !important;
-    letter-spacing: 0px !important;
+    letter-spacing: 0 !important;
     color: #eee !important;
   }
+
   /* left nav */
   #mw-navigation #mw-panel {
     position: fixed !important;
     font-size: 18px !important;
-    top: 0px !important;
+    top: 0 !important;
     left: -255px !important;
     width: 160px !important;
     height: 100% !important;
     overflow-y: auto !important;
     padding: 0 0 0 100px !important;
-    background: #23272a !important;
-    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.25) !important;
+    background: var(--light-bg-color) !important;
+    box-shadow: 1px 0 3px rgb(0 0 0 / 25%) !important;
     transition: all 0.66s ease-in-out !important;
     opacity: 0 !important;
   }
@@ -178,14 +189,14 @@
     margin-top: 7px !important;
   }
 
-  #mw-navigation #p-lang:before {
+  #mw-navigation #p-lang::before {
     content: "" !important;
     font-size: 0 !important;
     display: inline-block !important;
-    height: 0px !important;
+    height: 0 !important;
     width: 100% !important;
-    border-top: 1px solid rgba(0, 0, 0, 0.2) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.75) !important;
+    border-top: 1px solid rgb(0 0 0 / 20%) !important;
+    border-bottom: 1px solid rgb(255 255 255 / 75%) !important;
   }
 
   #mw-navigation #p-lang {
@@ -202,19 +213,21 @@
     margin-top: 6px !important;
   }
 
-  #mw-navigation > #mw-panel > div:not(#p-lang):not(#p-navigation):not(.first),
+  #mw-navigation > #mw-panel > div:not(#p-lang, #p-navigation, .first),
   #mw-navigation #p-lang .wbc-editpage {
     display: none !important;
   }
+
   /* article */
+
   /* headlines */
   #firstHeading {
-    font-family: "Merriweather", sans-serif !important;
+    font-family: Merriweather, serif !important;
     font-size: 2.7em !important;
     margin-top: 40px !important;
     padding-bottom: 5px !important;
     font-weight: normal !important;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 50%) !important;
     color: #eee;
   }
 
@@ -227,8 +240,8 @@
     margin-top: 40px !important;
     margin-bottom: 10px !important;
     font-weight: normal !important;
-    font-family: "Merriweather", sans-serif !important;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important;
+    font-family: Merriweather, serif !important;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 50%) !important;
     color: #eee;
   }
 
@@ -240,7 +253,7 @@
   #bodyContent h6 span.mw-editsection {
     float: right !important;
     margin-top: 12px !important;
-    font-family: "Merriweather", sans-serif !important;
+    font-family: Merriweather, serif !important;
     text-shadow: none !important;
   }
 
@@ -250,97 +263,80 @@
 
   #bodyContent h2 {
     font-size: 23px !important;
+    counter-reset: headingTwo;
   }
 
   #bodyContent h3 {
     font-size: 20px !important;
+    counter-reset: headingThree;
   }
 
   #bodyContent h4 {
     font-size: 16px !important;
+    counter-reset: headingFour;
   }
 
   #bodyContent h5 {
     font-size: 12px !important;
+    counter-reset: headingFive;
   }
 
   #bodyContent h6 {
     font-size: 10px !important;
-  }
-  /* numbering of the headings */
-  /* via http://userstyles.org/styles/56739/wikipedia-readable-hyphenation */
-  body {
-    counter-reset: headingOne;
+    counter-reset: headingSix;
   }
 
-  #toctitle h2:before {
+  /* numbering of the headings */
+
+  #bodyContent .toctitle h2#mw-toc-heading::before {
     content: "" !important;
-    counter-reset: headingOne;
+    counter-reset: headingOne !important;
     padding-right: 0 !important;
   }
 
-  #bodyContent h2:before,
-  #bodyContent h3:before,
-  #bodyContent h4:before,
-  #bodyContent h5:before,
-  #bodyContent h6:before {
+  #bodyContent h2::before,
+  #bodyContent h3::before,
+  #bodyContent h4::before,
+  #bodyContent h5::before,
+  #bodyContent h6::before {
     padding-right: 9px;
-    font-family: "Lora", serif !important;
+    font-family: Lora, serif !important;
     text-shadow: none !important;
   }
 
-  #bodyContent h2 {
-    counter-reset: headingTwo;
-  }
-
-  #bodyContent h2:before {
+  #bodyContent h2::before {
     counter-increment: headingOne;
     content: counter(headingOne);
     font-size: 16px !important;
   }
 
-  #bodyContent h3 {
-    counter-reset: headingThree;
-  }
-
-  #bodyContent h3:before {
+  #bodyContent h3::before {
     counter-increment: headingTwo;
     content: counter(headingOne) "." counter(headingTwo);
     font-size: 15px !important;
   }
 
-  #bodyContent h4 {
-    counter-reset: headingFour;
-  }
-
-  #bodyContent h4:before {
+  #bodyContent h4::before {
     counter-increment: headingThree;
     content: counter(headingOne) "." counter(headingTwo) "."
       counter(headingThree);
     font-size: 14px !important;
   }
 
-  #bodyContent h5 {
-    counter-reset: headingFive;
-  }
-
-  #bodyContent h5:before {
+  #bodyContent h5::before {
     counter-increment: headingFour;
     content: counter(headingOne) "." counter(headingTwo) "."
       counter(headingThree) "." counter(headingFour);
     font-size: 13px !important;
   }
 
-  #bodyContent h6 {
-    counter-reset: headingSix;
-  }
-
-  #bodyContent h6:before {
+  #bodyContent h6::before {
     counter-increment: headingFive;
     content: counter(headingOne) "." counter(headingTwo) "."
       counter(headingThree) "." counter(headingFour) "." counter(headingFive);
     font-size: 12px !important;
   }
+
   /* article */
   #bodyContent .infobox {
     padding: 9px 16px 5px !important;
@@ -350,9 +346,10 @@
   #bodyContent #coordinates {
     top: -3px !important;
     padding: 4px 6px 3px !important;
-    background: #181a1b !important;
-    border-radius: 0px !important;
-    border: 1px solid #181a1b !important;
+    background: var(--bg-color) !important;
+    border-radius: 0 !important;
+    border: 1px solid var(--bg-color) !important;
+
     /* box-shadow: inset 0 1px 0 rgba(255,255,255,0.75), 0 1px 1px rgba(0,0,0,0.25) !important; */
   }
 
@@ -368,6 +365,7 @@
   #bodyContent #featured-star {
     top: -45px !important;
   }
+
   /* text styles */
   #bodyContent {
     letter-spacing: -0.1px !important;
@@ -378,19 +376,38 @@
   #bodyContent div.hatnote {
     font-size: 16px !important;
     line-height: 26px !important;
-    font-family: "Merriweather" !important;
+    font-family: Merriweather, serif !important;
     letter-spacing: -0.3px !important;
+  }
+
+  #bodyContent table.wikitable > * > tr > td.table-yes .reference a:not(.new),
+  #bodyContent table.wikitable > * > tr > td.table-no .reference a:not(.new),
+  #bodyContent
+  table.wikitable
+  > *
+  > tr
+  > td.table-partial
+  .reference
+  a:not(.new),
+  #bodyContent
+  table.wikitable
+  > *
+  > tr
+  > td.table-unknown
+  .reference
+  a:not(.new) {
+    color: #697277 !important;
   }
 
   #bodyContent a:not(.new),
   .toctogglelabel,
   #bodyContent #toc ul ul li a:hover,
   #bodyContent #toc ul li a:hover {
-    color: #56bc58 !important;
+    color: var(--new-link-color) !important;
   }
 
   #bodyContent a:not(.new):visited {
-    color: #b6e2b6 !important;
+    color: var(--old-link-color) !important;
   }
 
   #bodyContent .dablink,
@@ -408,7 +425,7 @@
     margin: 5px 0 12px -5px !important;
     padding: 0 !important;
     font-size: 12px !important;
-    color: #ccc;
+    color: var(--font-color);
   }
 
   #bodyContent table.ambox,
@@ -427,50 +444,51 @@
     font-size: 14px !important;
     line-height: 17px !important;
   }
+
   /* boxes */
   .messagebox,
-    #catlinks,
-    .infobox,
-    .infobox td,
-    table.infobox th,
-    #bodyContent div.thumb,
-    /* fix the thumbs backgrounds!!! */
-    .thumbinner,
-    div.thumb div,
-    code,
-    pre,
-    .thumbcaption,
-    .toccolours,
-    .NavFrame,
-    .toccolours th,
-    .toccolours tbody,
-    .NavHead,
-    .tright,
-    .tleft,
-    table,
-    .gallery,
-    .gallerybox,
-    .gallerytext,
-    table.gallery,
-    table.gallery td,
-    #toc,
-    .toc,
-    .mw-warning,
-    div.townBox,
-    table.diff,
-    td.diff-otitle,
-    td.diff-ntitle,
-    #imageLicense,
-    #filetoc,
-    .hintergrundfarbe1,
-    .hintergrundfarbe2,
-    #hauptseite h2,
-    .MainPageBG,
-    .noarticletext,
-    .quotebox,
-    .mw-code {
-    background-color: #23272a !important;
-    color: #ccc;
+  #catlinks,
+  .infobox,
+  .infobox td,
+  table.infobox th,
+  #bodyContent div.thumb,
+    
+  .thumbinner,
+  div.thumb div,
+  code,
+  pre,
+  .thumbcaption,
+  .toccolours,
+  .NavFrame,
+  .toccolours th,
+  .toccolours tbody,
+  .NavHead,
+  .tright,
+  .tleft,
+  table,
+  .gallery,
+  .gallerybox,
+  .gallerytext,
+  table.gallery,
+  table.gallery td,
+  #toc,
+  .toc,
+  .mw-warning,
+  div.townBox,
+  table.diff,
+  td.diff-otitle,
+  td.diff-ntitle,
+  #imageLicense,
+  #filetoc,
+  .hintergrundfarbe1,
+  .hintergrundfarbe2,
+  #hauptseite h2,
+  .MainPageBG,
+  .noarticletext,
+  .quotebox,
+  .mw-code {
+    background-color: var(--light-bg-color) !important;
+    color: var(--font-color);
     font-size: 0.9rem;
     border-radius: 2px;
   }
@@ -491,26 +509,30 @@
 
   .mw-content-ltr.mw-highlight-lines pre,
   .mw-content-ltr.content .mw-highlight-lines pre {
-    box-shadow: inset 2.75em 0 0 #23272a;
+    box-shadow: inset 2.75em 0 0 var(--light-bg-color);
   }
 
   .c1 {
     color: #e41f85 !important;
   }
+
   .kd,
   .nn {
     color: #1479f6 !important;
   }
+
   .s,
   .s2,
   .s1 {
     color: #fb4efa !important;
   }
+
   .mf,
   .mi,
   .n {
     color: #ccf2fe !important;
   }
+
   .nb {
     color: #2afd7d !important;
   }
@@ -519,15 +541,19 @@
   .no {
     color: #2dfffe !important;
   }
+
   .nx {
     color: #84fd31 !important;
   }
+
   .p {
     color: #feafaf !important;
   }
+
   .k {
     color: #f77c22 !important;
   }
+
   .kc,
   .o {
     color: #47c0fd !important;
@@ -535,29 +561,27 @@
 
   #content .thumbinner {
     border-color: #b9b9b9 !important;
-  }
-  /* noborder test */
-  #toc,
-    .thumbinner,
-    .thumbinner .thumbimage,
-    .infobox,
-    .vertical-navbox,
-    .mergedtoprow,
-    table.infobox > tbody:first-child > tr:first-child > th,
-    .metadata:not(.ambox),
-    .mbox-small,
-    .quotebox,
-    .portal,
-    .catlinks,
-    .navbox,
-    .hintergrundfarbe1,
-    table
-    /* check this! i added this for "roma" on italian wikipedia */ {
-    border: none !important;
+    padding: 7px !important;
   }
 
-  #content .thumbinner {
-    padding: 7px !important;
+  /* noborder test */
+  #toc,
+  .thumbinner,
+  .thumbinner .thumbimage,
+  .infobox,
+  .vertical-navbox,
+  .mergedtoprow,
+  table.infobox > tbody:first-child > tr:first-child > th,
+  .metadata:not(.ambox),
+  .mbox-small,
+  .quotebox,
+  .portal,
+  .catlinks,
+  .navbox,
+  .hintergrundfarbe1,
+  table
+    /* check this! i added this for "roma" on italian wikipedia */ {
+    border: none !important;
   }
 
   #bodyContent .ambox {
@@ -567,6 +591,7 @@
   .navbox + .navbox {
     margin-top: 9px !important;
   }
+
   /* table of contents */
   #toc {
     padding: 1px 16px 5px !important;
@@ -574,16 +599,10 @@
   }
 
   #toc #toctitle {
-    margin-top: 7px !important;
-    text-align: left !important;
-    padding-bottom: 0 !important;
+    display: none !important;
   }
 
-  #toc #toctitle h2 {
-    font-family: "Merriweather", sans-serif !important;
-    font-size: 17px !important;
-  }
-  /* floating toc*/
+  /* floating toc */
   #toc .toctoggle {
     display: none !important;
   }
@@ -595,9 +614,9 @@
     width: 50% !important;
     border: none !important;
     z-index: 9999;
-    color: #ccc;
-    background: #23272a !important;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.25) !important;
+    color: var(--font-color);
+    background: var(--light-bg-color) !important;
+    box-shadow: 1px 0 6px rgb(0 0 0 / 25%) !important;
   }
 
   .tocright #toc.toc {
@@ -613,6 +632,7 @@
   #bodyContent #toc > ul > li {
     border-top: 1px solid #797776 !important;
     border-bottom: 1px solid #535251 !important;
+    padding: 3px 3px 3px 13px !important;
   }
 
   #bodyContent #toc > ul > li:first-child {
@@ -643,7 +663,7 @@
     margin-right: 0 !important;
   }
 
-  #bodyContent #toc ul li a .tocnumber:after {
+  #bodyContent #toc ul li a .tocnumber::after {
     content: "." !important;
   }
 
@@ -653,10 +673,6 @@
 
   #bodyContent #toc ul ul ul > li {
     padding: 0 3px 0 10px !important;
-  }
-
-  #bodyContent #toc > ul > li {
-    padding: 3px 3px 3px 13px !important;
   }
 
   #bodyContent #toc li a[href="#See_also"],
@@ -682,7 +698,7 @@
 
   #bodyContent #toc li a {
     display: block !important;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 20%) !important;
   }
 
   #bodyContent #toc li a:hover {
@@ -698,17 +714,13 @@
     background: #111 !important;
   }
 
-  #toc #toctitle {
-    display: none !important;
-  }
-
   table.wikitable > tr > th,
   table.wikitable > tr > td,
   table.wikitable > * > tr > th,
   table.wikitable > * > tr > td {
     font-size: 1rem;
-    color: #ccc !important;
-    border-color: #ccc !important;
+    color: var(--font-color) !important;
+    border-color: var(--font-color) !important;
   }
 
   table.wikitable > tr > th,
@@ -718,7 +730,7 @@
 
   .navbox,
   .navbox-subgroup {
-    background-color: #23272a;
+    background-color: var(--light-bg-color);
   }
 
   .navbox-group,
@@ -731,23 +743,24 @@
   tr + tr > .navbox-group,
   tr + tr > .navbox-image,
   tr + tr > .navbox-list {
-    border-color: #181a1b;
+    border-color: var(--bg-color);
   }
 
   .mw-parser-output .navbox-even {
-    background-color: #181a1b;
+    background-color: var(--bg-color);
   }
 
   .mw-parser-output .navbox-odd {
     background-color: #202020;
   }
+
   /* footer */
   #footer {
     left: 0 !important;
     right: 0 !important;
     margin: 0 !important;
     padding: 15px 0 !important;
-    background-color: #23272a !important;
+    background-color: var(--light-bg-color) !important;
   }
 
   #footer-info {
@@ -768,7 +781,7 @@
   }
 
   .sidebar-pretitle span {
-    color: #ccc !important;
+    color: var(--font-color) !important;
   }
 
   .mw-footer li {
@@ -776,19 +789,19 @@
   }
 
   .mw-headline {
-    color: #ccc !important;
+    color: var(--font-color) !important;
   }
 
   .mw-headline a span,
   .rt-tooltip a,
   .mw-mmv-image-metadata a,
   .mw-mmv-post-image a {
-    color: #56bc58 !important;
+    color: var(--new-link-color) !important;
   }
 
   .mwe-popups-overlay,
   .oo-ui-windowManager-modal > .oo-ui-dialog {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgb(0 0 0 / 50%) !important;
   }
 
   .mw-parser-output .contentsPage--type,
@@ -804,8 +817,8 @@
   .wikitable caption,
   .mw-mmv-post-image,
   .mw-mmv-image-metadata {
-    background-color: #181a1b !important;
-    color: #ccc !important;
+    background-color: var(--bg-color) !important;
+    color: var(--font-color) !important;
   }
 
   .mw-parser-output .navbox,
@@ -819,6 +832,7 @@
   ol.references li:target,
   sup.reference:target,
   .mbox-text .mbox-text-span,
+  .infobox-image div,
   div.mbox-image-div,
   div.mbox-text-span div,
   .infobox-label div,
@@ -828,9 +842,8 @@
   .rt-target,
   .infobox-above div,
   .infobox-full-data div,
-  .infobox-image div,
   .linenos {
-    background-color: #23272a !important;
+    background-color: var(--light-bg-color) !important;
   }
 
   a.new {
@@ -845,8 +858,8 @@
     position: relative;
   }
 
-  .mw-ui-icon.mw-ui-icon-settings:after {
-    color: #ccc;
+  .mw-ui-icon.mw-ui-icon-settings::after {
+    color: var(--font-color);
     content: "⚙";
     font-size: 2.7rem;
     opacity: 1;
@@ -855,11 +868,11 @@
     left: 0;
   }
 
-  .mwe-popups-extract:after {
+  .mwe-popups-extract::after {
     background: linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(24, 26, 27, 1) 100%
+      rgb(255 255 255 / 0%) 0%,
+      rgb(24 26 27 / 100%) 100%
     ) !important;
   }
 
@@ -868,7 +881,7 @@
     padding-right: 0;
   }
 
-  .mw-parser-output a.external:after {
+  .mw-parser-output a.external::after {
     content: "↗";
     color: #a9cef4;
   }
@@ -879,51 +892,29 @@
   table.wikitable > * > tr > td.table-partial,
   table.wikitable > * > tr > td.table-unknown,
   table.wikitable > * > tr > td.table-na {
-    color: #181a1b !important;
-  }
-
-  #bodyContent table.wikitable > * > tr > td.table-yes .reference a:not(.new),
-  #bodyContent table.wikitable > * > tr > td.table-no .reference a:not(.new),
-  #bodyContent
-    table.wikitable
-    > *
-    > tr
-    > td.table-partial
-    .reference
-    a:not(.new),
-  #bodyContent
-    table.wikitable
-    > *
-    > tr
-    > td.table-unknown
-    .reference
-    a:not(.new) {
-    color: #697277 !important;
+    color: var(--bg-color) !important;
   }
 
   table.wikitable > * > tr > td.table-yes {
     background-color: #a7dca7 !important;
   }
+
   table.wikitable > * > tr > td.table-partial {
-    background-color: #ffdd99 !important;
+    background-color: #fd9 !important;
   }
+
   table.wikitable > * > tr > td.table-no {
     background-color: #f99fae !important;
   }
+
   table.wikitable > * > tr > td.table-unknown {
     background-color: #d4c4cb !important;
   }
 
-  ul {
-    list-style-image: none !important;
-  }
-
-  /* mobile styles */
-
   #mw-mf-viewport #mw-mf-page-center,
   .mw-overlays-container .image-details {
-    background-color: #181a1b !important;
-    color: #ccc !important;
+    background-color: var(--bg-color) !important;
+    color: var(--font-color) !important;
   }
 
   #mw-mf-viewport header,
@@ -941,6 +932,6 @@
   }
 
   #mw-mf-viewport #bodyContent #toc li a {
-    color: #56bc58 !important;
+    color: var(--new-link-color) !important;
   }
 }

@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Wikipedia Clean Dark Green
-@version      20220914.14.58
+@version      20220921.13.49
 @namespace    userstyles.world/user/w3cj
 @description  A clean dark theme with green accents based on the "Wikipedia Clean Dark" theme.
 @author       w3cj
@@ -13,7 +13,7 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-italic.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
@@ -23,7 +23,7 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-italic.woff") format('woff'); 
   unicode-range: U+0370-03FF;
 }
 
@@ -33,7 +33,7 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-italic.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -43,7 +43,7 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-italic.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
@@ -53,7 +53,7 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-italic.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
@@ -63,7 +63,7 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-italic.woff") format('woff'); 
   unicode-range: U+0370-03FF;
 }
 
@@ -73,7 +73,7 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-italic.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -83,7 +83,7 @@
   font-family: 'Anonymous Pro';
   font-style: italic;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-italic.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
@@ -93,7 +93,7 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-400-normal.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
@@ -103,7 +103,7 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-400-normal.woff") format('woff'); 
   unicode-range: U+0370-03FF;
 }
 
@@ -113,7 +113,7 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-400-normal.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -123,7 +123,7 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-400-normal.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
@@ -133,7 +133,7 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-cyrillic-700-normal.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
@@ -143,7 +143,7 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-greek-700-normal.woff") format('woff'); 
   unicode-range: U+0370-03FF;
 }
 
@@ -153,7 +153,7 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-700-normal.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -163,534 +163,541 @@
   font-family: 'Anonymous Pro';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/anonymous-pro/files/anonymous-pro-latin-ext-700-normal.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* cyrillic */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-italic.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-italic.woff") format('woff'); 
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-300-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-300-italic.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-italic.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* vietnamese */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-italic.woff") format('woff'); 
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
 /* cyrillic */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-italic.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-italic.woff") format('woff'); 
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-400-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-400-italic.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-italic.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* vietnamese */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-italic.woff") format('woff'); 
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
 /* cyrillic */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-italic.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-italic.woff") format('woff'); 
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-700-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-700-italic.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-italic.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* vietnamese */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-italic.woff") format('woff'); 
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
 /* cyrillic */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-italic.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-italic.woff") format('woff'); 
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-900-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-900-italic.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-italic.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* vietnamese */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: italic;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-italic.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-italic.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-italic.woff") format('woff'); 
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
 /* cyrillic */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-300-normal.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-300-normal.woff") format('woff'); 
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-300-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-300-normal.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-300-normal.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* vietnamese */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-300-normal.woff") format('woff'); 
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
 /* cyrillic */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-400-normal.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-400-normal.woff") format('woff'); 
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-400-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-400-normal.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-400-normal.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* vietnamese */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-400-normal.woff") format('woff'); 
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
 /* cyrillic */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-700-normal.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-700-normal.woff") format('woff'); 
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-700-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-700-normal.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-700-normal.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* vietnamese */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-700-normal.woff") format('woff'); 
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
 /* cyrillic */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-900-normal.woff") format('woff'); 
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
 /* cyrillic-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-cyrillic-ext-900-normal.woff") format('woff'); 
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 /* latin */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-900-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-900-normal.woff") format('woff'); 
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* latin-ext */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-latin-ext-900-normal.woff") format('woff'); 
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* vietnamese */
 
 @font-face {
-  font-family: 'Merriweather';
+  font-family: Merriweather;
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-normal.woff) format('woff'); 
+  src: url("https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-normal.woff2) format('woff2'), url(https://fonts.bunny.net/merriweather/files/merriweather-vietnamese-900-normal.woff") format('woff'); 
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+:root {
+  --eerie-black: #181a1b;
+  --charleston-green: #23272a;
+  --light-grey: #cccccc;
+  --garden-green: #56bc58;
+  --celadon: #b6e2b6;
+  --bg-color: var(--eerie-black);
+  --light-bg-color: var(--charleston-green);
+  --font-color: var(--light-grey);
+  --new-link-color: var(--garden-green);
+  --old-link-color: var(--celadon);
 }
 
 @-moz-document domain("wikipedia.org"), domain("www.wikimedia.org"), domain("wiktionary.org"), domain("wikinews.org"), domain("wikimedia.org") {
-
-  body
-  {
+  body {
     border: none !important;
-    font-family: 'Merriweather', sans-serif !important;
+    font-family: Merriweather, serif !important;
     font-size: 18px !important;
-    background: #181A1B !important;
+    background: #181a1b !important;
+    background: var(--bg-color) !important;
+  }
+  body {
+    counter-reset: headingOne; /* via http://userstyles.org/styles/56739/wikipedia-readable-hyphenation */
   }
 
-  #content
-  {
+  #content {
     margin: 0 auto !important;
     border: none !important;
-    font-family: 'Merriweather' !important;
+    font-family: Merriweather, serif !important;
     font-size: 1rem !important;
     line-height: 80% !important;
     max-width: 920px !important;
-    background: #181A1B !important;
-    color: #ccc !important;
+    background: #181a1b !important;
+    background: var(--bg-color) !important;
+    color: #cccccc !important;
+    color: var(--font-color) !important;
   }
 
-  a
-  {
+  a {
     text-decoration: none !important;
   }
 
-  a:hover
-  {
+  a:hover {
     text-decoration: underline !important;
   }
-    /* top nav */
-  #mw-page-base
-  {
-    height: 0px !important;
+
+  /* top nav */
+  #mw-page-base {
+    height: 0 !important;
     margin: 0 auto !important;
-    background: #23272a !important;;
+    background: #23272a !important;
+    background: var(--light-bg-color) !important;
   }
-  #mw-page-base
-  {
-        /* background: #CAC8C4 !important; */;
+  #mw-page-base {
+
+    /* background: #CAC8C4 !important; */
   }
 
-  #mw-navigation
-  {
+  #mw-navigation {
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
   }
 
-  #mw-navigation
-  {
+  #mw-navigation {
     display: none;
   }
 
-  #mw-head
-  {
+  #mw-head {
     position: relative !important;
     max-width: 870px !important;
     height: 90px !important;
     margin: 0 auto !important;
   }
 
+  ul {
+    list-style-image: none !important;
+  }
+
   #mw-head a,
-    #mw-head ul,
-    #mw-head li,
-    #mw-head span,
-    #mw-head .vectorTabs
-  {
+  #mw-head ul,
+  #mw-head li,
+  #mw-head span,
+  #mw-head .vectorTabs {
     background: none !important;
     border: none !important;
   }
 
-  #mw-head > *
-  {
+  #mw-head > * {
     position: absolute !important;
     font-size: 16px !important;
     margin: 0 !important;
     padding: 0 !important;
   }
 
-  #mw-head #left-navigation
-  {
+  #mw-head #left-navigation {
     top: 50px !important;
     left: -30px !important;
     padding: 0 !important;
   }
 
-  #mw-head #right-navigation
-  {
+  #mw-head #right-navigation {
     top: 50px !important;
-    right: 0px !important;
+    right: 0 !important;
     padding: 0 !important;
   }
 
-  #mw-head #p-personal
-  {
-    top: 0px !important;
+  #mw-head #p-personal {
+    top: 0 !important;
     right: -30px !important;
-    padding: 5px 0px 0 0 !important;
+    padding: 5px 0 0 !important;
     font-size: 14px !important;
   }
 
-  #mw-head li
-  {
+  #mw-head li {
     opacity: 0 !important;
     transition: all 0.45s ease-out !important;
   }
 
-  #mw-head:hover li
-  {
+  #mw-head:hover li {
     opacity: 1 !important;
     transition: all 0.13s ease-in !important;
   }
 
   #mw-head a,
-    #mw-head a:visited
-  {
+  #mw-head a:visited {
     color: #f0f0f0 !important;
   }
 
-  #mw-head #searchform > div
-  {
+  #mw-head #searchform > div {
     position: absolute !important;
     top: -32px !important;
     right: -30px !important;
@@ -702,374 +709,352 @@
     padding: 0 0 7px !important;
   }
 
-  #mw-head #searchform > div input#searchInput
-  {
+  #mw-head #searchform > div input#searchInput {
     padding: 4px 0 6px 8px !important;
-    color: #ccc !important;
+    color: #cccccc !important;
+    color: var(--font-color) !important;
   }
 
-  #mw-head #searchform > div input#searchInput
-  {
+  #mw-head #searchform > div input#searchInput {
     font-size: 1rem;
   }
 
   #mw-head #p-cactions,
-    #mw-head #ca-watch
-  {
+  #mw-head #ca-watch {
     display: none !important;
   }
-    /* logo */
-  #mw-head:before
-  {
+
+  /* logo */
+  #mw-head::before {
     position: relative !important;
     width: 120px !important;
     height: 120px !important;
     top: 30px !important;
     left: -25px !important;
-    content: 'Wikipedia' !important;
-    font-family: 'Merriweather', serif !important;
+    content: "Wikipedia" !important;
+    font-family: Merriweather, serif !important;
     font-weight: normal !important;
     font-size: 28px !important;
     text-transform: uppercase !important;
-    letter-spacing: 0px !important;
+    letter-spacing: 0 !important;
     color: #eee !important;
   }
-  #mw-head:before
-  {
-        /*font-style: italic !important;*/
+  #mw-head::before {
+
+    /* font-style: italic !important; */
   }
-    /* left nav */
-  #mw-navigation #mw-panel
-  {
+
+  /* left nav */
+  #mw-navigation #mw-panel {
     position: fixed !important;
     font-size: 18px !important;
-    top: 0px !important;
+    top: 0 !important;
     left: -255px !important;
     width: 160px !important;
     height: 100% !important;
     overflow-y: auto !important;
     padding: 0 0 0 100px !important;
     background: #23272a !important;
+    background: var(--light-bg-color) !important;
     box-shadow: 1px 0 3px rgba(0, 0, 0, 0.25) !important;
     transition: all 0.66s ease-in-out !important;
     opacity: 0 !important;
   }
 
-  #mw-navigation #mw-panel:hover
-  {
+  #mw-navigation #mw-panel:hover {
     left: -100px !important;
     transition: all 0.2s ease-in-out !important;
     opacity: 1 !important;
   }
 
-  #mw-navigation #mw-panel a
-  {
+  #mw-navigation #mw-panel a {
     color: #eee !important;
   }
 
   #mw-navigation #p-navigation,
-    #mw-navigation .first
-  {
+  #mw-navigation .first {
     margin-bottom: 0 !important;
     margin-top: 7px !important;
   }
 
-  #mw-navigation #p-lang:before
-  {
+  #mw-navigation #p-lang::before {
     content: "" !important;
     font-size: 0 !important;
     display: inline-block !important;
-    height: 0px !important;
+    height: 0 !important;
     width: 100% !important;
     border-top: 1px solid rgba(0, 0, 0, 0.2) !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.75) !important;
   }
 
-  #mw-navigation #p-lang
-  {
+  #mw-navigation #p-lang {
     margin-top: -15px !important;
   }
 
-  #mw-navigation #p-lang-label
-  {
+  #mw-navigation #p-lang-label {
     color: #fff;
     font-size: 1.2rem;
   }
 
-  #mw-navigation #p-lang .uls-settings-trigger
-  {
+  #mw-navigation #p-lang .uls-settings-trigger {
     margin-right: 8px !important;
     margin-top: 6px !important;
   }
 
   #mw-navigation > #mw-panel > div:not(#p-lang):not(#p-navigation):not(.first),
-    #mw-navigation #p-lang .wbc-editpage
-  {
+  #mw-navigation #p-lang .wbc-editpage {
     display: none !important;
   }
-    /* article */
-    /* headlines */
-  #firstHeading
-  {
-    font-family: 'Merriweather', sans-serif !important;
+
+  /* article */
+
+  /* headlines */
+  #firstHeading {
+    font-family: Merriweather, serif !important;
     font-size: 2.7em !important;
     margin-top: 40px !important;
     padding-bottom: 5px !important;
     font-weight: normal !important;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important;
   }
-  #firstHeading
-  {
+  #firstHeading {
     color: #eee;
   }
 
   #bodyContent h1,
-    #bodyContent h2,
-    #bodyContent h3,
-    #bodyContent h4,
-    #bodyContent h5,
-    #bodyContent h6
-  {
+  #bodyContent h2,
+  #bodyContent h3,
+  #bodyContent h4,
+  #bodyContent h5,
+  #bodyContent h6 {
     margin-top: 40px !important;
     margin-bottom: 10px !important;
     font-weight: normal !important;
-    font-family: 'Merriweather', sans-serif !important;
+    font-family: Merriweather, serif !important;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5) !important;
   }
 
   #bodyContent h1,
-    #bodyContent h2,
-    #bodyContent h3,
-    #bodyContent h4,
-    #bodyContent h5,
-    #bodyContent h6
-  {
+  #bodyContent h2,
+  #bodyContent h3,
+  #bodyContent h4,
+  #bodyContent h5,
+  #bodyContent h6 {
     color: #eee;
   }
 
   #bodyContent h1 span.mw-editsection,
-    #bodyContent h2 span.mw-editsection,
-    #bodyContent h3 span.mw-editsection,
-    #bodyContent h4 span.mw-editsection,
-    #bodyContent h5 span.mw-editsection,
-    #bodyContent h6 span.mw-editsection
-  {
+  #bodyContent h2 span.mw-editsection,
+  #bodyContent h3 span.mw-editsection,
+  #bodyContent h4 span.mw-editsection,
+  #bodyContent h5 span.mw-editsection,
+  #bodyContent h6 span.mw-editsection {
     float: right !important;
     margin-top: 12px !important;
-    font-family: 'Merriweather', sans-serif !important;
+    font-family: Merriweather, serif !important;
     text-shadow: none !important;
   }
 
-  span.mw-editsection span.mw-editsection-bracket
-  {
+  span.mw-editsection span.mw-editsection-bracket {
     display: none !important;
   }
 
-  #bodyContent h2
-  {
+  #bodyContent h2 {
     font-size: 23px !important;
   }
 
-  #bodyContent h3
-  {
-    font-size: 20px !important;
-  }
-
-  #bodyContent h4
-  {
-    font-size: 16px !important;
-  }
-
-  #bodyContent h5
-  {
-    font-size: 12px !important;
-  }
-
-  #bodyContent h6
-  {
-    font-size: 10px !important;
-  }
-    /* numbering of the headings */
-    /* via http://userstyles.org/styles/56739/wikipedia-readable-hyphenation */
-  body
-  {
-    counter-reset: headingOne;
-  }
-
-  #toctitle h2:before
-  {
-    content: "" !important;
-    padding-right: 0 !important;
-  }
-
-  #toctitle h2:before
-  {
-    counter-reset: headingOne;
-  }
-
-  #bodyContent h2:before,
-    #bodyContent h3:before,
-    #bodyContent h4:before,
-    #bodyContent h5:before,
-    #bodyContent h6:before
-  {
-    font-family: 'Lora', serif !important;
-    text-shadow: none !important;
-  }
-
-  #bodyContent h2:before,
-    #bodyContent h3:before,
-    #bodyContent h4:before,
-    #bodyContent h5:before,
-    #bodyContent h6:before
-  {
-    padding-right: 9px;
-  }
-
-  #bodyContent h2
-  {
+  #bodyContent h2 {
     counter-reset: headingTwo;
   }
 
-  #bodyContent h2:before
-  {
+  #bodyContent h3 {
+    font-size: 20px !important;
+  }
+
+  #bodyContent h3 {
+    counter-reset: headingThree;
+  }
+
+  #bodyContent h4 {
     font-size: 16px !important;
   }
 
-  #bodyContent h2:before
-  {
+  #bodyContent h4 {
+    counter-reset: headingFour;
+  }
+
+  #bodyContent h5 {
+    font-size: 12px !important;
+  }
+
+  #bodyContent h5 {
+    counter-reset: headingFive;
+  }
+
+  #bodyContent h6 {
+    font-size: 10px !important;
+  }
+
+  #bodyContent h6 {
+    counter-reset: headingSix;
+  }
+
+  /* numbering of the headings */
+
+  #bodyContent .toctitle h2#mw-toc-heading::before {
+    content: "" !important;
+    counter-reset: headingOne !important;
+    padding-right: 0 !important;
+  }
+
+  #bodyContent h2::before,
+  #bodyContent h3::before,
+  #bodyContent h4::before,
+  #bodyContent h5::before,
+  #bodyContent h6::before {
+    font-family: Lora, serif !important;
+    text-shadow: none !important;
+  }
+
+  #bodyContent h2::before,
+  #bodyContent h3::before,
+  #bodyContent h4::before,
+  #bodyContent h5::before,
+  #bodyContent h6::before {
+    padding-right: 9px;
+  }
+
+  #bodyContent h2::before {
+    font-size: 16px !important;
+  }
+
+  #bodyContent h2::before {
     counter-increment: headingOne;
     content: counter(headingOne);
   }
 
-  #bodyContent h3
-  {
-    counter-reset: headingThree;
-  }
-
-  #bodyContent h3:before
-  {
+  #bodyContent h3::before {
     font-size: 15px !important;
   }
 
-  #bodyContent h3:before
-  {
+  #bodyContent h3::before {
     counter-increment: headingTwo;
     content: counter(headingOne) "." counter(headingTwo);
   }
 
-  #bodyContent h4
-  {
-    counter-reset: headingFour;
-  }
-
-  #bodyContent h4:before
-  {
+  #bodyContent h4::before {
     font-size: 14px !important;
   }
 
-  #bodyContent h4:before
-  {
+  #bodyContent h4::before {
     counter-increment: headingThree;
-    content: counter(headingOne) "." counter(headingTwo) "." counter(headingThree);
+    content: counter(headingOne) "." counter(headingTwo) "."
+      counter(headingThree);
   }
 
-  #bodyContent h5
-  {
-    counter-reset: headingFive;
-  }
-
-  #bodyContent h5:before
-  {
+  #bodyContent h5::before {
     font-size: 13px !important;
   }
 
-  #bodyContent h5:before
-  {
+  #bodyContent h5::before {
     counter-increment: headingFour;
-    content: counter(headingOne) "." counter(headingTwo) "." counter(headingThree) "." counter(headingFour);
+    content: counter(headingOne) "." counter(headingTwo) "."
+      counter(headingThree) "." counter(headingFour);
   }
 
-  #bodyContent h6
-  {
-    counter-reset: headingSix;
-  }
-
-  #bodyContent h6:before
-  {
+  #bodyContent h6::before {
     font-size: 12px !important;
   }
 
-  #bodyContent h6:before
-  {
+  #bodyContent h6::before {
     counter-increment: headingFive;
-    content: counter(headingOne) "." counter(headingTwo) "." counter(headingThree) "." counter(headingFour) "." counter(headingFive);
+    content: counter(headingOne) "." counter(headingTwo) "."
+      counter(headingThree) "." counter(headingFour) "." counter(headingFive);
   }
-    /* article */
-  #bodyContent .infobox
-  {
+
+  /* article */
+  #bodyContent .infobox {
     padding: 9px 16px 5px !important;
     margin-left: 30px !important;
   }
 
-  #bodyContent #coordinates
-  {
+  #bodyContent #coordinates {
     top: -3px !important;
     padding: 4px 6px 3px !important;
-    background: #181A1B !important;
-    border-radius: 0px !important;
-    border: 1px solid #181A1B !important;;
+    background: #181a1b !important;
+    background: var(--bg-color) !important;
+    border-radius: 0 !important;
+    border: 1px solid #181a1b !important;
+    border: 1px solid var(--bg-color) !important;
   }
 
-  #bodyContent #coordinates
-  {
-        /* box-shadow: inset 0 1px 0 rgba(255,255,255,0.75), 0 1px 1px rgba(0,0,0,0.25) !important; */;
+  #bodyContent #coordinates {
+
+    /* box-shadow: inset 0 1px 0 rgba(255,255,255,0.75), 0 1px 1px rgba(0,0,0,0.25) !important; */
   }
 
   html[lang="de"] #bodyContent #coordinates
-    /* .de fix */
-  {
+    /* .de fix */ {
     top: 53px !important;
     right: 32px !important;
   }
 
   #bodyContent #protected-icon,
-    #bodyContent #good-star,
-    #bodyContent #spoken-icon,
-    #bodyContent #featured-star
-  {
+  #bodyContent #good-star,
+  #bodyContent #spoken-icon,
+  #bodyContent #featured-star {
     top: -45px !important;
   }
-    /* text styles */
-  #bodyContent
-  {
+
+  /* text styles */
+  #bodyContent {
     letter-spacing: -0.1px !important;
   }
 
   #bodyContent p,
-    #bodyContent li,
-    #bodyContent div.hatnote
-  {
+  #bodyContent li,
+  #bodyContent div.hatnote {
     font-size: 16px !important;
     line-height: 26px !important;
-    font-family: 'Merriweather' !important;
+    font-family: Merriweather, serif !important;
     letter-spacing: -0.3px !important;
   }
 
-  #bodyContent a:not(.new), .toctogglelabel, #bodyContent #toc ul ul li a:hover, #bodyContent #toc ul li a:hover
-  {
-    color: #56BC58 !important;
+  #bodyContent table.wikitable > * > tr > td.table-yes .reference a:not(.new),
+  #bodyContent table.wikitable > * > tr > td.table-no .reference a:not(.new),
+  #bodyContent
+  table.wikitable
+  > *
+  > tr
+  > td.table-partial
+  .reference
+  a:not(.new),
+  #bodyContent
+  table.wikitable
+  > *
+  > tr
+  > td.table-unknown
+  .reference
+  a:not(.new) {
+    color: #697277 !important;
   }
 
-  #bodyContent a:not(.new):visited
-  {
-    color: #B6E2B6 !important;
+  #bodyContent a:not(.new),
+  .toctogglelabel,
+  #bodyContent #toc ul ul li a:hover,
+  #bodyContent #toc ul li a:hover {
+    color: #56bc58 !important;
+    color: var(--new-link-color) !important;
+  }
+
+  #bodyContent a:not(.new):visited {
+    color: #b6e2b6 !important;
+    color: var(--old-link-color) !important;
   }
 
   #bodyContent .dablink,
-    #bodyContent .relarticle,
-    #bodyContent .rellink
-  {
+  #bodyContent .relarticle,
+  #bodyContent .rellink {
     margin: 7px 0 9px !important;
     padding: 0 !important;
     font-size: 14px !important;
@@ -1078,570 +1063,604 @@
   }
 
   #bodyContent #contentSub
-    /* redirected from msg */
-  {
+    /* redirected from msg */ {
     margin: 5px 0 12px -5px !important;
     padding: 0 !important;
     font-size: 12px !important;
   }
 
   #bodyContent #contentSub
-    /* redirected from msg */
-  {
-    color: #ccc;
+    /* redirected from msg */ {
+    color: #cccccc;
+    color: var(--font-color);
   }
 
   #bodyContent table.ambox,
-    #bodyContent #disambigbox
-  {
+  #bodyContent #disambigbox {
     margin: 0 !important;
     font-size: 14px !important;
     line-height: 22px !important;
   }
 
-  #bodyContent #disambigbox
-  {
+  #bodyContent #disambigbox {
     margin: 25px 0 !important;
   }
 
-  #bodyContent .references li
-  {
+  #bodyContent .references li {
     color: #c0c0c0 !important;
     font-size: 14px !important;
     line-height: 17px !important;
   }
-    /* boxes */
+
+  /* boxes */
   .messagebox,
-    #catlinks,
-    .infobox,
-    .infobox td,
-    table.infobox th,
-    #bodyContent div.thumb,
-    /* fix the thumbs backgrounds!!! */
-    .thumbinner,
-    div.thumb div,
-    code,
-    pre,
-    .thumbcaption,
-    .toccolours,
-    .NavFrame,
-    .toccolours th,
-    .toccolours tbody,
-    .NavHead,
-    .tright,
-    .tleft,
-    table,
-    .gallery,
-    .gallerybox,
-    .gallerytext,
-    table.gallery,
-    table.gallery td,
-    #toc,
-    .toc,
-    .mw-warning,
-    div.townBox,
-    table.diff,
-    td.diff-otitle,
-    td.diff-ntitle,
-    #imageLicense,
-    #filetoc,
-    .hintergrundfarbe1,
-    .hintergrundfarbe2,
-    #hauptseite h2,
-    .MainPageBG,
-    .noarticletext,
-    .quotebox,
-    .mw-code
-  {
+  #catlinks,
+  .infobox,
+  .infobox td,
+  table.infobox th,
+  #bodyContent div.thumb,
+    
+  .thumbinner,
+  div.thumb div,
+  code,
+  pre,
+  .thumbcaption,
+  .toccolours,
+  .NavFrame,
+  .toccolours th,
+  .toccolours tbody,
+  .NavHead,
+  .tright,
+  .tleft,
+  table,
+  .gallery,
+  .gallerybox,
+  .gallerytext,
+  table.gallery,
+  table.gallery td,
+  #toc,
+  .toc,
+  .mw-warning,
+  div.townBox,
+  table.diff,
+  td.diff-otitle,
+  td.diff-ntitle,
+  #imageLicense,
+  #filetoc,
+  .hintergrundfarbe1,
+  .hintergrundfarbe2,
+  #hauptseite h2,
+  .MainPageBG,
+  .noarticletext,
+  .quotebox,
+  .mw-code {
     background-color: #23272a !important;
+    background-color: var(--light-bg-color) !important;
   }
   .messagebox,
-    #catlinks,
-    .infobox,
-    .infobox td,
-    table.infobox th,
-    #bodyContent div.thumb,
-    /* fix the thumbs backgrounds!!! */
-    .thumbinner,
-    div.thumb div,
-    code,
-    pre,
-    .thumbcaption,
-    .toccolours,
-    .NavFrame,
-    .toccolours th,
-    .toccolours tbody,
-    .NavHead,
-    .tright,
-    .tleft,
-    table,
-    .gallery,
-    .gallerybox,
-    .gallerytext,
-    table.gallery,
-    table.gallery td,
-    #toc,
-    .toc,
-    .mw-warning,
-    div.townBox,
-    table.diff,
-    td.diff-otitle,
-    td.diff-ntitle,
-    #imageLicense,
-    #filetoc,
-    .hintergrundfarbe1,
-    .hintergrundfarbe2,
-    #hauptseite h2,
-    .MainPageBG,
-    .noarticletext,
-    .quotebox,
-    .mw-code
-  {
-    color: #ccc;
+  #catlinks,
+  .infobox,
+  .infobox td,
+  table.infobox th,
+  #bodyContent div.thumb,
+    
+  .thumbinner,
+  div.thumb div,
+  code,
+  pre,
+  .thumbcaption,
+  .toccolours,
+  .NavFrame,
+  .toccolours th,
+  .toccolours tbody,
+  .NavHead,
+  .tright,
+  .tleft,
+  table,
+  .gallery,
+  .gallerybox,
+  .gallerytext,
+  table.gallery,
+  table.gallery td,
+  #toc,
+  .toc,
+  .mw-warning,
+  div.townBox,
+  table.diff,
+  td.diff-otitle,
+  td.diff-ntitle,
+  #imageLicense,
+  #filetoc,
+  .hintergrundfarbe1,
+  .hintergrundfarbe2,
+  #hauptseite h2,
+  .MainPageBG,
+  .noarticletext,
+  .quotebox,
+  .mw-code {
+    color: #cccccc;
+    color: var(--font-color);
     font-size: 0.9rem;
     border-radius: 2px;
   }
 
-  pre, code, tt, kbd, samp, .mw-code, .mw-highlight
-  {
-    font-family: 'Anonymous Pro', monospace !important;
+  pre,
+  code,
+  tt,
+  kbd,
+  samp,
+  .mw-code,
+  .mw-highlight {
+    font-family: "Anonymous Pro", monospace !important;
     background-color: black !important;
   }
 
-  pre, code, tt, kbd, samp, .mw-code, .mw-highlight
-  {
+  pre,
+  code,
+  tt,
+  kbd,
+  samp,
+  .mw-code,
+  .mw-highlight {
     border-color: #151819;
     margin: auto 2px;
     padding: 0.25rem;
   }
 
-.mw-content-ltr.mw-highlight-lines pre, .mw-content-ltr.content .mw-highlight-lines pre {
+  .mw-content-ltr.mw-highlight-lines pre,
+  .mw-content-ltr.content .mw-highlight-lines pre {
     box-shadow: inset 2.75em 0 0 #23272a;
-}
+    box-shadow: inset 2.75em 0 0 var(--light-bg-color);
+  }
 
-.c1 {
-    color: #E41F85 !important;
-}
-.kd, .nn {
-    color: #1479F6 !important;
-}
-.s, .s2, .s1 {
-    color: #FB4EFA !important;
-}
-.mf, .mi, .n {
-    color: #CCF2FE !important;
-}
-.nb {
-    color: #2AFD7D !important;
-}
+  .c1 {
+    color: #e41f85 !important;
+  }
 
-.nv, .no {
-    color: #2DFFFE !important;
-}
-.nx {
-    color: #84FD31 !important;
-}
-.p {
-    color: #FEAFAF !important;
-}
-.k {
-    color: #F77C22 !important;
-}
-.kc, .o {
-    color: #47C0FD !important;
-}
+  .kd,
+  .nn {
+    color: #1479f6 !important;
+  }
 
-  #content .thumbinner
-  {
+  .s,
+  .s2,
+  .s1 {
+    color: #fb4efa !important;
+  }
+
+  .mf,
+  .mi,
+  .n {
+    color: #ccf2fe !important;
+  }
+
+  .nb {
+    color: #2afd7d !important;
+  }
+
+  .nv,
+  .no {
+    color: #2dfffe !important;
+  }
+
+  .nx {
+    color: #84fd31 !important;
+  }
+
+  .p {
+    color: #feafaf !important;
+  }
+
+  .k {
+    color: #f77c22 !important;
+  }
+
+  .kc,
+  .o {
+    color: #47c0fd !important;
+  }
+
+  #content .thumbinner {
     border-color: #b9b9b9 !important;
-  }
-    /* noborder test */
-  #toc,
-    .thumbinner,
-    .thumbinner .thumbimage,
-    .infobox,
-    .vertical-navbox,
-    .mergedtoprow,
-    table.infobox > tbody:first-child > tr:first-child > th,
-    .metadata:not(.ambox),
-    .mbox-small,
-    .quotebox,
-    .portal,
-    .catlinks,
-    .navbox,
-    .hintergrundfarbe1,
-    table
-    /* check this! i added this for "roma" on italian wikipedia */
-  {
-    border: none !important;
-  }
-
-  #content .thumbinner
-  {
     padding: 7px !important;
   }
 
-  #bodyContent .ambox
-  {
+  /* noborder test */
+  #toc,
+  .thumbinner,
+  .thumbinner .thumbimage,
+  .infobox,
+  .vertical-navbox,
+  .mergedtoprow,
+  table.infobox > tbody:first-child > tr:first-child > th,
+  .metadata:not(.ambox),
+  .mbox-small,
+  .quotebox,
+  .portal,
+  .catlinks,
+  .navbox,
+  .hintergrundfarbe1,
+  table
+    /* check this! i added this for "roma" on italian wikipedia */ {
+    border: none !important;
+  }
+
+  #bodyContent .ambox {
     border-width: 0 0 0 5px !important;
   }
 
-  .navbox + .navbox
-  {
+  .navbox + .navbox {
     margin-top: 9px !important;
   }
-    /* table of contents */
-  #toc
-  {
+
+  /* table of contents */
+  #toc {
     padding: 1px 16px 5px !important;
     font-size: 12px !important;
   }
 
-  #toc #toctitle
-  {
-    margin-top: 7px !important;
-    text-align: left !important;
-    padding-bottom: 0 !important;
-  }
-
-  #toc #toctitle h2
-  {
-    font-family: "Merriweather", sans-serif !important;
-    font-size: 17px !important;
-  }
-    /* floating toc*/
-  #toc .toctoggle
-  {
+  #toc #toctitle {
     display: none !important;
   }
 
-  #toc.toc
-  {
+  /* floating toc */
+  #toc .toctoggle {
+    display: none !important;
+  }
+
+  #toc.toc {
     padding: 0 !important;
     font-size: 12px !important;
     display: block !important;
     width: 50% !important;
     border: none !important;
     background: #23272a !important;
+    background: var(--light-bg-color) !important;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.25) !important;
   }
 
-  #toc.toc
-  {
+  #toc.toc {
     z-index: 9999;
-    color: #ccc;
+    color: #cccccc;
+    color: var(--font-color);
   }
 
-.tocright #toc.toc {
+  .tocright #toc.toc {
     width: 100% !important;
-}
+  }
 
   #bodyContent #toc ul,
-    #bodyContent #toc li
-  {
+  #bodyContent #toc li {
     padding: 0 !important;
     margin: 0 !important;
   }
 
-  #bodyContent #toc > ul > li
-  {
+  #bodyContent #toc > ul > li {
     border-top: 1px solid #797776 !important;
     border-bottom: 1px solid #535251 !important;
+    padding: 3px 3px 3px 13px !important;
   }
 
-  #bodyContent #toc > ul > li:first-child
-  {
+  #bodyContent #toc > ul > li:first-child {
     border-top: none !important;
   }
 
-  #bodyContent #toc > ul > li:last-child
-  {
+  #bodyContent #toc > ul > li:last-child {
     border-bottom: none !important;
   }
 
-  #bodyContent #toc ul li a
-  {
+  #bodyContent #toc ul li a {
     font-size: 18px !important;
     line-height: 21px !important;
-    color: #EAE9E8 !important;
+    color: #eae9e8 !important;
     padding: 6px 0 4px !important;
   }
 
-  #bodyContent #toc ul ul li a
-  {
+  #bodyContent #toc ul ul li a {
     font-size: 13px !important;
     line-height: 17px !important;
     color: #eee !important;
     padding: 4px 0 !important;
   }
 
-  #bodyContent #toc ul li a .tocnumber
-  {
+  #bodyContent #toc ul li a .tocnumber {
     font-size: 15px !important;
     color: #eee !important;
     margin-right: 0 !important;
   }
 
-  #bodyContent #toc ul li a .tocnumber:after
-  {
+  #bodyContent #toc ul li a .tocnumber::after {
     content: "." !important;
   }
 
-  #bodyContent #toc ul > li
-  {
+  #bodyContent #toc ul > li {
     padding: 0 3px 0 0 !important;
   }
 
-  #bodyContent #toc ul ul ul > li
-  {
+  #bodyContent #toc ul ul ul > li {
     padding: 0 3px 0 10px !important;
   }
 
-  #bodyContent #toc > ul > li
-  {
-    padding: 3px 3px 3px 13px !important;
-  }
-
   #bodyContent #toc li a[href="#See_also"],
-    #bodyContent #toc li a[href="#Notes"],
-    #bodyContent #toc li a[href="#References"],
-    #bodyContent #toc li a[href="#Bibliography"],
-    #bodyContent #toc li a[href="#Further_reading"],
-    #bodyContent #toc li a[href="#Documentaries"],
-    #bodyContent #toc li a[href="#External_links"]
-  {
+  #bodyContent #toc li a[href="#Notes"],
+  #bodyContent #toc li a[href="#References"],
+  #bodyContent #toc li a[href="#Bibliography"],
+  #bodyContent #toc li a[href="#Further_reading"],
+  #bodyContent #toc li a[href="#Documentaries"],
+  #bodyContent #toc li a[href="#External_links"] {
     margin: -3px 0 !important;
     font-size: 14px !important;
   }
 
   #bodyContent #toc li a[href="#See_also"] .tocnumber,
-    #bodyContent #toc li a[href="#Notes"] .tocnumber,
-    #bodyContent #toc li a[href="#References"] .tocnumber,
-    #bodyContent #toc li a[href="#Bibliography"] .tocnumber,
-    #bodyContent #toc li a[href="#Further_reading"] .tocnumber,
-    #bodyContent #toc li a[href="#Documentaries"] .tocnumber,
-    #bodyContent #toc li a[href="#External_links"] .tocnumber
-  {
+  #bodyContent #toc li a[href="#Notes"] .tocnumber,
+  #bodyContent #toc li a[href="#References"] .tocnumber,
+  #bodyContent #toc li a[href="#Bibliography"] .tocnumber,
+  #bodyContent #toc li a[href="#Further_reading"] .tocnumber,
+  #bodyContent #toc li a[href="#Documentaries"] .tocnumber,
+  #bodyContent #toc li a[href="#External_links"] .tocnumber {
     display: none !important;
   }
 
-  #bodyContent #toc li a
-  {
+  #bodyContent #toc li a {
     display: block !important;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important;
   }
 
-  #bodyContent #toc li a:hover
-  {
+  #bodyContent #toc li a:hover {
     text-decoration: none !important;
     color: #fff !important;
   }
 
-  #toc ul li
-  {
+  #toc ul li {
     transition: background 0.2s ease-in-out !important;
   }
 
-  #toc ul li:hover
-  {
+  #toc ul li:hover {
     background: #111 !important;
   }
 
-  #toc #toctitle
-  {
-    display: none !important;
+  table.wikitable > tr > th,
+  table.wikitable > tr > td,
+  table.wikitable > * > tr > th,
+  table.wikitable > * > tr > td {
+    color: #cccccc !important;
+    color: var(--font-color) !important;
+    border-color: #cccccc !important;
+    border-color: var(--font-color) !important;
   }
 
   table.wikitable > tr > th,
-    table.wikitable > tr > td,
-    table.wikitable > * > tr > th,
-    table.wikitable > * > tr > td
-  {
-    color: #ccc !important;
-    border-color: #ccc !important;
-  }
-
-  table.wikitable > tr > th,
-    table.wikitable > tr > td,
-    table.wikitable > * > tr > th,
-    table.wikitable > * > tr > td
-  {
+  table.wikitable > tr > td,
+  table.wikitable > * > tr > th,
+  table.wikitable > * > tr > td {
     font-size: 1rem;
   }
 
   table.wikitable > tr > th,
-    table.wikitable > * > tr > th
-  {
+  table.wikitable > * > tr > th {
     background-color: #111;
   }
 
   .navbox,
-    .navbox-subgroup
-  {
+  .navbox-subgroup {
     background-color: #23272a;
+    background-color: var(--light-bg-color);
   }
 
   .navbox-group,
-    .navbox-title,
-    .navbox-abovebelow
-  {
+  .navbox-title,
+  .navbox-abovebelow {
     background-color: #3a4351 !important;
   }
 
   tr + tr > .navbox-abovebelow,
-    tr + tr > .navbox-group,
-    tr + tr > .navbox-image,
-    tr + tr > .navbox-list
-  {
-    border-color: #181A1B;
+  tr + tr > .navbox-group,
+  tr + tr > .navbox-image,
+  tr + tr > .navbox-list {
+    border-color: #181a1b;
+    border-color: var(--bg-color);
   }
 
-  .mw-parser-output .navbox-even
-  {
-    background-color: #181A1B;
+  .mw-parser-output .navbox-even {
+    background-color: #181a1b;
+    background-color: var(--bg-color);
   }
 
-  .mw-parser-output .navbox-odd
-  {
+  .mw-parser-output .navbox-odd {
     background-color: #202020;
   }
-    /* footer */
-  #footer
-  {
+
+  /* footer */
+  #footer {
     left: 0 !important;
     right: 0 !important;
     margin: 0 !important;
     padding: 15px 0 !important;
     background-color: #23272a !important;
+    background-color: var(--light-bg-color) !important;
   }
 
-  #footer-info
-  {
+  #footer-info {
     max-width: 860px !important;
     margin: 0 auto !important;
     font-size: 18px !important;
   }
 
-  #footer li:not(#footer-info-lastmod)
-  {
+  #footer li:not(#footer-info-lastmod) {
     display: none !important;
   }
 
-.sidebar-title, .sidebar-heading, .sidebar-pretitle, .sidebar-title-with-pretitle {
-    background: #401C4A !important;
-}
+  .sidebar-title,
+  .sidebar-heading,
+  .sidebar-pretitle,
+  .sidebar-title-with-pretitle {
+    background: #401c4a !important;
+  }
 
-.sidebar-pretitle span {
-    color: #ccc !important;
-}
+  .sidebar-pretitle span {
+    color: #cccccc !important;
+    color: var(--font-color) !important;
+  }
 
-.mw-footer li {
+  .mw-footer li {
     color: #c0c0c0 !important;
-}
+  }
 
-.mw-headline {
-    color: #ccc !important;
-}
+  .mw-headline {
+    color: #cccccc !important;
+    color: var(--font-color) !important;
+  }
 
-.mw-headline a span, .rt-tooltip a, .mw-mmv-image-metadata a, .mw-mmv-post-image a {
-    color: #56BC58 !important;
-}
+  .mw-headline a span,
+  .rt-tooltip a,
+  .mw-mmv-image-metadata a,
+  .mw-mmv-post-image a {
+    color: #56bc58 !important;
+    color: var(--new-link-color) !important;
+  }
 
-.mwe-popups-overlay, .oo-ui-windowManager-modal > .oo-ui-dialog {
-    background-color: rgba(0,0,0,0.5) !important;
-}
+  .mwe-popups-overlay,
+  .oo-ui-windowManager-modal > .oo-ui-dialog {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
 
-.mw-parser-output .contentsPage--type, .mw-parser-output .contentsPage--type .contentsPage__title, .mw-parser-output div, .mwe-popups *, .rt-tooltip, #mwe-popups-settings, #mwe-popups-settings h1, #mwe-popups-settings label, #mwe-popups-settings label span, .oo-ui-windowManager *, .wikitable caption, .mw-mmv-post-image, .mw-mmv-image-metadata {
-    background-color: #181A1B !important;
-    color: #ccc !important;
-}
+  .mw-parser-output .contentsPage--type,
+  .mw-parser-output .contentsPage--type .contentsPage__title,
+  .mw-parser-output div,
+  .mwe-popups *,
+  .rt-tooltip,
+  #mwe-popups-settings,
+  #mwe-popups-settings h1,
+  #mwe-popups-settings label,
+  #mwe-popups-settings label span,
+  .oo-ui-windowManager *,
+  .wikitable caption,
+  .mw-mmv-post-image,
+  .mw-mmv-image-metadata {
+    background-color: #181a1b !important;
+    background-color: var(--bg-color) !important;
+    color: #cccccc !important;
+    color: var(--font-color) !important;
+  }
 
-.mw-parser-output .navbox, .mw-parser-output .portalborder > ul, .mw-parser-output .side-box, .mw-parser-output .spoken-wikipedia, .mw-parser-output .portal-bar-bordered, .mw-parser-output .contentsPage--type .contentsPage__heading, #contents-footer, .mw-parser-output .contentsPage--type .contentsPage__intro, ol.references li:target, sup.reference:target, .mbox-text .mbox-text-span, div.mbox-image-div, div.mbox-text-span div, .infobox-label div, div.infobox-caption, .infobox-data div, .mbox-text div, .rt-target, .infobox-above div, .infobox-full-data div, .infobox-image div, .linenos {
+  .mw-parser-output .navbox,
+  .mw-parser-output .portalborder > ul,
+  .mw-parser-output .side-box,
+  .mw-parser-output .spoken-wikipedia,
+  .mw-parser-output .portal-bar-bordered,
+  .mw-parser-output .contentsPage--type .contentsPage__heading,
+  #contents-footer,
+  .mw-parser-output .contentsPage--type .contentsPage__intro,
+  ol.references li:target,
+  sup.reference:target,
+  .mbox-text .mbox-text-span,
+  .infobox-image div,
+  div.mbox-image-div,
+  div.mbox-text-span div,
+  .infobox-label div,
+  div.infobox-caption,
+  .infobox-data div,
+  .mbox-text div,
+  .rt-target,
+  .infobox-above div,
+  .infobox-full-data div,
+  .linenos {
     background-color: #23272a !important;
-}
+    background-color: var(--light-bg-color) !important;
+  }
 
-a.new {
-    color: #F21B3F !important;
-}
+  a.new {
+    color: #f21b3f !important;
+  }
 
-a.new:visited {
-    color: #F7788D !important;
-}
+  a.new:visited {
+    color: #f7788d !important;
+  }
 
-.mw-ui-icon.mw-ui-icon-settings {
+  .mw-ui-icon.mw-ui-icon-settings {
     position: relative;
-}
+  }
 
-.mw-ui-icon.mw-ui-icon-settings:after {
-    color: #ccc;
+  .mw-ui-icon.mw-ui-icon-settings::after {
+    color: #cccccc;
+    color: var(--font-color);
     content: "⚙";
     font-size: 2.7rem;
     opacity: 1;
     position: absolute;
     top: 0.25rem;
     left: 0;
-}
+  }
 
-.mwe-popups-extract:after {
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(24,26,27,1) 100%) !important;
-}
+  .mwe-popups-extract::after {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(24, 26, 27, 1) 100%
+    ) !important;
+  }
 
-.mw-parser-output a.external {
+  .mw-parser-output a.external {
     background-image: none;
     padding-right: 0;
-}
+  }
 
-.mw-parser-output a.external:after {
+  .mw-parser-output a.external::after {
     content: "↗";
-    color: #A9CEF4;
-}
+    color: #a9cef4;
+  }
 
-table.wikitable > * > tr > td.table-yes, table.wikitable > * > tr > td.table-yes2, table.wikitable > * > tr > td.table-no, table.wikitable > * > tr > td.table-partial, table.wikitable > * > tr > td.table-unknown, table.wikitable > * > tr > td.table-na {
-    color: #181A1B !important;
-}
+  table.wikitable > * > tr > td.table-yes,
+  table.wikitable > * > tr > td.table-yes2,
+  table.wikitable > * > tr > td.table-no,
+  table.wikitable > * > tr > td.table-partial,
+  table.wikitable > * > tr > td.table-unknown,
+  table.wikitable > * > tr > td.table-na {
+    color: #181a1b !important;
+    color: var(--bg-color) !important;
+  }
 
-#bodyContent table.wikitable > * > tr > td.table-yes .reference a:not(.new), #bodyContent table.wikitable > * > tr > td.table-no .reference a:not(.new), #bodyContent table.wikitable > * > tr > td.table-partial .reference a:not(.new), #bodyContent table.wikitable > * > tr > td.table-unknown .reference a:not(.new) {
-    color: #697277 !important;
-}
+  table.wikitable > * > tr > td.table-yes {
+    background-color: #a7dca7 !important;
+  }
 
-table.wikitable > * > tr > td.table-yes {
-    background-color: #A7DCA7 !important;
-}
-table.wikitable > * > tr > td.table-partial {
-    background-color: #FFDD99 !important;
-}
-table.wikitable > * > tr > td.table-no {
-    background-color: #F99FAE !important;
-}
-table.wikitable > * > tr > td.table-unknown {
-    background-color: #D4C4CB !important;
-}
+  table.wikitable > * > tr > td.table-partial {
+    background-color: #fd9 !important;
+  }
 
-ul {
-    list-style-image: none !important;
-}
+  table.wikitable > * > tr > td.table-no {
+    background-color: #f99fae !important;
+  }
 
-/* mobile styles */
+  table.wikitable > * > tr > td.table-unknown {
+    background-color: #d4c4cb !important;
+  }
 
-#mw-mf-viewport #mw-mf-page-center, .mw-overlays-container .image-details {
-    background-color: #181A1B !important;
-    color: #ccc !important;
-}
+  #mw-mf-viewport #mw-mf-page-center,
+  .mw-overlays-container .image-details {
+    background-color: #181a1b !important;
+    background-color: var(--bg-color) !important;
+    color: #cccccc !important;
+    color: var(--font-color) !important;
+  }
 
-#mw-mf-viewport header, #mw-mf-viewport .page-actions-menu, #mw-mf-viewport .minerva__tab-container {
+  #mw-mf-viewport header,
+  #mw-mf-viewport .page-actions-menu,
+  #mw-mf-viewport .minerva__tab-container {
     display: none;
-}
+  }
 
-#mw-mf-viewport #toc.toc {
+  #mw-mf-viewport #toc.toc {
     width: 100% !important;
-}
+  }
 
-#mw-mf-viewport .mw-editsection {
+  #mw-mf-viewport .mw-editsection {
     display: none;
-}
+  }
 
-#mw-mf-viewport #bodyContent #toc li a {
-     color: #56BC58 !important;
-}
-
+  #mw-mf-viewport #bodyContent #toc li a {
+    color: #56bc58 !important;
+    color: var(--new-link-color) !important;
+  }
 }
