@@ -1,0 +1,29 @@
+{
+  "name": "wikipedia-clean-dark-green",
+  "version": "1.0.0",
+  "description": "A clean dark theme with green accents based on the [\"Wikipedia Clean Dark\" theme](https://userstyles.org/styles/154881/wikipedia-clean-dark).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "lint": "stylelint 'src/**/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3cj/wikipedia-clean-dark-green.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w3cj/wikipedia-clean-dark-green/issues"
+  },
+  "homepage": "https://github.com/w3cj/wikipedia-clean-dark-green#readme",
+  "devDependencies": {
+    "postcss-preset-env": "^7.8.2",
+    "stylelint": "^14.12.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^28.0.0",
+    "vite": "^3.1.3"
+  }
+}
